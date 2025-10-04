@@ -11,19 +11,19 @@
 .container-card{
     height: 100vh;
     display: grid;
-    width: 90%;
+    width: 80%;
     margin: auto;
     grid-template-columns: 100%;
     row-gap: 20px;
 }
 .card{
-    border:1px solid black;
+    
     border-radius: 15px;
 
 }
 .first{
     background-color: var(--purple-st);
-    height: 200px;
+    height: 210px;
   
 }
 .title, .italic,.paragraph-2{
@@ -36,7 +36,7 @@
   font-size: 35px;
   overflow-wrap: break-word;
   font-weight: 500;
-  margin: 20px 60px;
+  margin: 25px 40px;
   line-height: 30px;
   text-align: center;
 }
@@ -48,11 +48,12 @@
     position: relative;
     bottom: 0;
     margin-top: 5px;
+    font-size: 15px;
 }
 .container-image{
  background-image: url('../images/illustration-five-stars.webp');
     background-repeat: no-repeat;
-    background-size: 170px;
+    background-size: 160px;
     background-position:center center;
     height: 25px;
 }
