@@ -1,5 +1,5 @@
 *{
-    font-family: "Outfit", sans-serif; 
+    font-family: "DM Sans", sans-serif; 
 }
 :root{
     --black:black;
@@ -56,4 +56,19 @@
     background-size: 160px;
     background-position:center center;
     height: 25px;
+}
+.second{
+    background-color: hsl(32, 100%, 97%);
+    background-image: url('../images/illustration-multiple-platforms.webp');
+    background-repeat: no-repeat;
+    background-size: 290px;
+    height: 150px;
+    position: relative;
+}
+.second p{
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+    font-size: 22px;
+  font-weight: 500;
 }
