@@ -7,20 +7,23 @@
     --purple-st:hsl(256, 67%, 59%);
     --purple-light:hsl(254, 88%, 90%);
     --yellow-st:hsl(39, 100%, 71%);
-    --yellow-light:hsl(31, 66%, 93%)
+    --yellow-light:hsl(31, 66%, 93%);
+    --weight:(490);
+}
+.attribution{
+    margin-top: 30px;
 }
 .container-card{
     height: 100vh;
     display: grid;
-    width: 80%;
+    width: 83%;
     margin: auto;
     grid-template-columns: 100%;
     row-gap: 20px;
+	background: #958b8b1c;
 }
 .card{
-    
     border-radius: 15px;
-
 }
 .first{
     background-color: var(--purple-st);
@@ -34,12 +37,12 @@
     color:var(--yellow-st)
 }
 .title{
-  font-size: 35px;
-  overflow-wrap: break-word;
-  font-weight: 500;
-  margin: 25px 40px;
-  line-height: 30px;
-  text-align: center;
+    font-size: 35px;
+    overflow-wrap: break-word;
+    font-weight: 500;
+    margin: 25px 40px;
+    line-height: 30px;
+    text-align: center;
 }
 .italic{
     font-style: italic;
@@ -51,8 +54,9 @@
     margin-top: 5px;
     font-size: 15px;
 }
+/*en url la path va sin comillas, pero si las coloco igual lo lee*/
 .container-image{
- background-image: url('../images/illustration-five-stars.webp');
+    background-image: url('../images/illustration-five-stars.webp');
     background-repeat: no-repeat;
     background-size: 160px;
     background-position:center center;
@@ -62,7 +66,7 @@
 /*segunda card*/
 .second{
     background-color: hsl(32, 100%, 97%);
-    background-image: url('../images/illustration-multiple-platforms.webp');
+    background-image: url(../images/illustration-multiple-platforms.webp);
     background-repeat: no-repeat;
     background-size: 290px;
     height: 150px;
@@ -71,24 +75,25 @@
 .paragraph-second{
     position: absolute;
     bottom: 0;
-    font-size: 18px;
     font-size: 22px;
-  font-weight: 500;
+    font-weight: 500;
+    padding: 0px 10px;
 }
 /*tercera card*/
 
 .third{
     background-color: var(--yellow-st);
-    background-image: url('../images/illustration-consistent-schedule.webp');
+    background-image: url(../images/illustration-consistent-schedule.webp);
     background-repeat: no-repeat;
     background-size: 185px;
     background-position: 15px bottom;
     height: 220px;
 }
 .paragraph-third{
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: var(--weight);
+    font-size: 25px;
     padding-left: 10px;
+    line-height: 20px;
 }
 
 /*cuarta card*/
@@ -111,7 +116,7 @@
 .second-p-fourth{
     font-weight: 400;
     text-align: center;
-    padding: 0px 15px;
+    padding: 0px 20px;
     position: absolute;
     bottom: 0;
 }
@@ -126,7 +131,7 @@
     background-size: 210px;
     background-position: 35px 25px;
 }
-.fifth p {
+.p-fifth {
     color: white;
     position:absolute;
     bottom: 0;
@@ -135,4 +140,55 @@
     line-height: 23px;
     font-size: 25px;
     font-weight: 500;
+}
+.sixth{
+    background-color: #f7f3ef;
+    background-image: url(../images/illustration-audience-growth.webp);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: 20px 110px;
+}
+.first-p-sixth{
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.second-p-sixth{
+    font-weight: 460;
+}
+.first-p-sixth, .second-p-sixth{
+    margin:0px;
+    padding-left: 20px;
+}
+
+.seventh{
+    background-color: var(--yellow-light);
+    height: 220px;
+    background-image: url(../images/illustration-create-post.webp);
+    background-size: 185px;
+    background-repeat: no-repeat;
+    background-position: 25px 110px;
+}
+.p-seventh{
+    font-size: 25px;
+    font-weight: 530;
+    padding-left: 25px;
+}
+.purple{
+    color:var(--purple-st)
+}
+.eighth{
+    background-color: var(--yellow-st);
+    height: 300px;
+    background-image: url(../images/illustration-ai-content.webp);
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: 25px 100px;
+}
+.p-eighth{
+    font-size: 25px;
+    font-weight: var(--weight);
+    line-height: 25px;
+    padding-left: 25px;
 }
