@@ -6,7 +6,8 @@
     --white:white;
     --purple-st:hsl(256, 67%, 59%);
     --purple-light:hsl(254, 88%, 90%);
-    --yellow-st:hsl(39, 100%, 71%)
+    --yellow-st:hsl(39, 100%, 71%);
+    --yellow-light:hsl(31, 66%, 93%)
 }
 .container-card{
     height: 100vh;
@@ -57,6 +58,8 @@
     background-position:center center;
     height: 25px;
 }
+
+/*segunda card*/
 .second{
     background-color: hsl(32, 100%, 97%);
     background-image: url('../images/illustration-multiple-platforms.webp');
@@ -65,10 +68,50 @@
     height: 150px;
     position: relative;
 }
-.second p{
+.paragraph-second{
     position: absolute;
     bottom: 0;
     font-size: 18px;
     font-size: 22px;
   font-weight: 500;
+}
+/*tercera card*/
+
+.third{
+    background-color: var(--yellow-st);
+    background-image: url('../images/illustration-consistent-schedule.webp');
+    background-repeat: no-repeat;
+    background-size: 185px;
+    background-position: 15px bottom;
+    height: 220px;
+}
+.paragraph-third{
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+/*carta card*/
+
+.fourth{
+    background-color: var(--purple-light);
+    background-image: url(../images/illustration-schedule-posts.webp);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 265px;
+    background-position: center 65px;
+    position: relative;
+
+}
+.first-p-fourth{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.second-p-fourth{
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 15px;
+    position: absolute;
+    bottom: 0;
 }
