@@ -91,7 +91,7 @@
     padding-left: 10px;
 }
 
-/*carta card*/
+/*cuarta card*/
 
 .fourth{
     background-color: var(--purple-light);
@@ -114,4 +114,25 @@
     padding: 0px 15px;
     position: absolute;
     bottom: 0;
+}
+/*quinta card*/
+
+.fifth{
+    background-color: var(--purple-st);
+    height: 320px;
+    position: relative;
+    background-image: url(../images/illustration-grow-followers.webp);
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: 35px 25px;
+}
+.fifth p {
+    color: white;
+    position:absolute;
+    bottom: 0;
+    padding: 0px 40px;
+    text-align: center;
+    line-height: 23px;
+    font-size: 25px;
+    font-weight: 500;
 }
