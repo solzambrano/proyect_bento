@@ -213,14 +213,13 @@
     .eighth{
         grid-area: elemento8;
         height: auto;
-        background-size: 80%;
-        background-position: bottom;
+        background-size: 85%;
+        background-position: 35px 195px;
     }
     .p-eighth{
         font-size: 42px;
         font-weight: 600;
-        line-height: normal;
-        padding-left: 25px;
+        line-height: 40px;
 }
     .first{
         grid-area: elemento1;
