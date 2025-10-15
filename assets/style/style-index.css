@@ -192,3 +192,64 @@
     line-height: 25px;
     padding-left: 25px;
 }
+
+@media (min-width:1140px) {
+
+    .container-card{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        'elemento7 elemento1 elemento1 elemento4'
+        'elemento7 elemento1 elemento1 elemento4'
+        'elemento8 elemento2 elemento3 elemento4'
+        'elemento8 elemento6 elemento5 elemento5';
+        grid-gap: 10px;
+        width: 1140px;
+    }
+
+    .seventh{
+        grid-area: elemento7;
+    }
+    .eighth{
+        grid-area: elemento8;
+        height: auto;
+        background-size: 80%;
+        background-position: bottom;
+    }
+    .p-eighth{
+        font-size: 42px;
+        font-weight: 600;
+        line-height: normal;
+        padding-left: 25px;
+}
+    .first{
+        grid-area: elemento1;
+        height: auto;
+
+    }
+    .fourth{
+        grid-area: elemento4;
+    }
+    .second{
+        grid-area: elemento2;
+    }
+    .third{
+        grid-area: elemento3;
+    }
+    .fifth{
+        grid-area: elemento5;
+        height: 225px;
+        background-position: 15px center;
+    }
+    .p-fifth{
+        right: 0;
+        top:22px;
+        width: 285px;
+        font-size: 33px;
+        text-align: initial;
+    }
+    .sixth{
+        grid-area: elemento6;
+    }
+
+}
