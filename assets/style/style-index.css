@@ -209,6 +209,12 @@
 
     .seventh{
         grid-area: elemento7;
+        background-position: center 210px;
+        height: auto;
+    }
+    .p-seventh{
+        font-size: 40px;
+        line-height: 40px;
     }
     .eighth{
         grid-area: elemento8;
