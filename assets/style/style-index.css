@@ -205,7 +205,8 @@
         'elemento8 elemento6 elemento5 elemento5';
         grid-gap: 10px;
         width: 1140px;
-        margin-top: 35px;
+        margin-top: 55px;
+        background-color: #e3e0e0;
     }
 
     .seventh{
