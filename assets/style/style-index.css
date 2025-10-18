@@ -234,6 +234,21 @@
     }
     .fourth{
         grid-area: elemento4;
+        height: auto;
+        background-size: 380px;
+        background-position: 35px 140px;
+    }
+    .first-p-fourth{
+        font-size: 35px;
+        text-align: initial;
+        padding-left: 30px;
+        line-height: 30px;
+    }
+    .second-p-fourth{
+        font-size: 18px;
+        padding-left: inherit;
+        text-align: inherit;
+        width: 70%;
     }
     .second{
         grid-area: elemento2;
