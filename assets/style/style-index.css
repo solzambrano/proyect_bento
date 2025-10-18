@@ -230,6 +230,18 @@
     .first{
         grid-area: elemento1;
         height: auto;
+    }
+    .title{
+        font-size: 70px;
+        line-height:60px ;
+        margin: 70px 0px 30px;
+    }
+    .container-image{
+        background-size: 190px;
+
+    }
+    .paragraph-2{
+        font-size: 18px;
 
     }
     .fourth{
@@ -252,6 +264,16 @@
     }
     .second{
         grid-area: elemento2;
+        height: auto;
+        background-size: 345px;
+
+    }
+    .paragraph-second{
+        font-size: 33px;
+        font-weight: 640;
+        margin: 10px;
+        line-height: 30px;
+
     }
     .third{
         grid-area: elemento3;
