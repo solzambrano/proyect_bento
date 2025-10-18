@@ -277,6 +277,14 @@
     }
     .third{
         grid-area: elemento3;
+        background-size: 240px;
+        background-position: center 120px;
+    }
+    .paragraph-third{
+        font-size: 35px;
+        line-height: 25px;
+        margin: 10px;
+        font-weight: 545;
     }
     .fifth{
         grid-area: elemento5;
