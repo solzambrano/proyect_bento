@@ -300,6 +300,13 @@
     }
     .sixth{
         grid-area: elemento6;
+        background-size: 190px;
+
+    }
+    .first-p-sixth{
+        font-size: 50px;
+        padding-top: 0%;
+
     }
 
 }
