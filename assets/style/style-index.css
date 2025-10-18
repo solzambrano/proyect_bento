@@ -248,7 +248,7 @@
         grid-area: elemento4;
         height: auto;
         background-size: 380px;
-        background-position: 35px 140px;
+        background-position: 35px 112px;
     }
     .first-p-fourth{
         font-size: 35px;
@@ -258,7 +258,7 @@
     }
     .second-p-fourth{
         font-size: 18px;
-        padding-left: inherit;
+        padding-left: 30px;
         text-align: inherit;
         width: 70%;
     }
